@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="design.css">
+</head>
+<style>
+body {
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+	 background-size: cover;
+	
+}
+</style>
+<body>
+
+<script src= "code.js"></script>
+
+
+
+
+
+<div class="container">
+  <div class="center">
+<input type="image" onclick="FawryPay.checkout(chargeRequest,'http://google','http://google');" src="https://www.atfawry.com/ECommercePlugin/resources/images/atfawry-ar-logo.png" alt="Edfa3 Fawry" id="xsrrs"/>
+</div>
+</div>
+
+	<script>
+	
+ 
+	 
+		var chargeRequest = {};
+		chargeRequest.language= 'ar-eg';
+		chargeRequest.merchantCode= 'sYl4M6+mG264E7nejIRqvw==';
+		chargeRequest.merchantRefNumber= '';
+		chargeRequest.customer = {}
+		chargeRequest.customer.name = '';
+		chargeRequest.customer.mobile = '';
+		chargeRequest.customer.email = '';
+		chargeRequest.customer.customerProfileId = '';
+		chargeRequest.order = {};
+		chargeRequest.order.description = '';
+		chargeRequest.order.expiry = '';
+		chargeRequest.order.orderItems = [];
+			var item = {};
+			item.productSKU = 'orion online service';
+			item.description ='Orion online service';
+			item.price ='150';
+			item.quantity ='1';
+			item.width ='12222';
+			item.height ='12222';
+			item.length ='12222';
+			item.weight ='12222';
+		chargeRequest.order.orderItems.push(item);
+		chargeRequest.signature = 'd82407f0eb150569177a555f5b502a14eaacaf351d1c365b616d23997f0fcf04';
+	
+
+		 
+		function requestCanceldCallBack(merchantRefNum) {		 
+			// Your implementation to handle the calncel button				 
+		}
+		
+		function fawryCallbackFunction(paid, billingAcctNum, paymentAuthId,merchantRefNum, messageSignature) {
+			// Your implementation
+		}
+	</script>
+    
+</body>
+</html>

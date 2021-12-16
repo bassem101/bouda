@@ -1,0 +1,603 @@
+#top{
+    background-color: rgb(26, 25, 25);
+    position: fixed;
+    
+    top:0;
+    height:70px;
+    width:100%;
+    z-index: 1000; 
+}
+
+#logo{
+    position:absolute;
+    top:5px;
+    width:100px;
+    height: 70px;
+}
+#b1{
+    font-size: 60px;
+    position: absolute;
+    left:100px;
+    color:  rgb(149, 173, 166);
+}
+#b2{
+    font-size: 20px;
+    position: absolute;
+    left:380px;
+    top:45px;
+    color:  rgb(149, 173, 166);
+}
+#m{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    top:25px;
+    right:30px;
+    width:70px;
+    height:30px;
+    color: white;
+    font-size: 20px;
+}
+#seen{
+    position: absolute;
+    top:20px;
+    right:30px;
+    width:15px;
+    height:15px;
+}
+#sold{
+    width:90px;
+height:80px;
+position: absolute;;
+   top:10px;
+   left:20px;
+}
+#add{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    top:25px;
+    right:130px;
+    width:70px;
+    height:30px;
+    color: white;
+    font-size: 20px;
+}
+#history{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    top:25px;
+    right:230px;
+    width:70px;
+    height:30px;
+    color: white;
+    font-size: 20px;
+}
+#image{
+    width:450px;
+    height:250px;
+    position: absolute;
+    top:25px;
+}
+#signout{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    position: absolute;
+    top:25px;
+    right:320px;
+    width:70px;
+    height:30px;
+    color: white;
+    font-size: 20px;
+}
+.vl {
+    border-right: 2px solid rgb(62, 136, 126);
+   width:1170px;
+    height: 45px;
+   position:absolute;
+   top:20px;
+   
+}
+
+#serachbar{
+    border: solid;
+    width: 60%;
+    height:12%;
+    position: absolute;
+    top: 280px;
+left:300px;
+
+}
+#background{
+    width:100%;
+}
+#building{
+    top: 80px;
+    width:70%;
+    height: 25%;
+ position: absolute;
+ left: 250px;
+}
+#c{
+    font-size: 25px;
+
+    position: absolute;
+    top:12px;
+    left:25px;
+  
+}
+#q{
+    position: absolute;
+    top:45px;
+    left:15px;
+    width:80px;
+}
+#r{
+    font-size: 25px;
+
+    position: absolute;
+    top:12px;
+    left:185px;
+  
+}
+
+#q2{
+     position: absolute;
+    top:45px;
+    left:185px;
+    width:80px;
+}
+#b{
+    font-size: 25px;
+ position: absolute;
+    top:12px;
+    left:355px;
+  
+}
+#q3{
+     position: absolute;
+    top:45px;
+    left:355px;
+    width:80px;
+}
+
+#size{
+    font-size: 25px;
+
+    position: absolute;
+    top:12px;
+    left:540px;
+}
+#sizetext{
+    position: absolute;
+    top:45px;
+    left:540px;
+    width:80px;
+}
+#typee{
+    font-size: 25px;
+
+    position: absolute;
+    top:5px;
+    left:710px;
+}
+#q5{
+    position: absolute;
+    top:45px;
+    left:710px;
+    width:80px;
+}
+#searchhh{
+    border: solid;
+    background-color: rgb(149, 173, 166);
+    cursor: pointer;
+    position: absolute;
+    top:25px;
+    right:30px;
+    width:150px;
+    height:50px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.center{
+    background-color: lightgray;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:200px;
+}
+#white{
+    background-color: white;
+    width:80%;
+    height:90%; 
+    position: absolute;
+    left: 10%;
+    top:14%;
+}
+
+
+#home{
+width:400px;
+height:250px;
+position:relative;
+   top:-30px;
+}
+#description{
+    width:170px;
+    height: 20px;
+   position:absolute;
+   top:5px;
+   left:570px;
+}
+.v2{
+    
+    width:300px;
+     height: 20px;
+    position:absolute;
+    top:20px;
+    left:600px;
+}
+#price{
+    position:absolute;
+    top:10%;
+    left:50%;
+    font-size: 20px;
+   
+  
+}
+#rr{
+    position:absolute;
+    top:35%;
+    left:50%;
+    width:0px;
+    font-size: 20px;
+    
+}
+
+/*.v3{
+    border-right: 400px solid lightgray;
+    width:11px;
+     height: 2px;
+    position:absolute;
+    top:300px;
+    left:-10px;
+}*/
+#bed{
+    width:60px;
+    height: 40px;
+    position:absolute;
+    top:150px;
+    left:570px;
+}
+#bathroom{
+    width:60px;
+    height: 40px;
+    position:absolute;
+    top:150px;
+    left:690px;
+}
+#area{
+    width:50px;
+    height: 40px;
+    position:absolute;
+    top:150px;
+    left:820px;
+}
+#money{
+    width:50px;
+    height: 40px;
+    position:absolute;
+    top:150px;
+    left:950px;
+}
+#bedN{
+    font-size: 20px;
+    position:absolute;
+    top:150px;
+    left:640px;
+  
+}
+#bathN{
+    font-size: 20px;
+    position:absolute;
+    top:150px;
+    left:760px;
+  
+}
+#areaN{
+    font-size: 17px;
+    position:absolute;
+    top:150px;
+    left:880px;
+  
+}
+#moneyN{
+    font-size: 17px;
+    position:absolute;
+    width:150px;
+    top:150px;
+    left:1020px;
+}
+#adress{
+    position:absolute;
+  
+    top:230px;
+    left:570px;
+}
+#adressD{
+    position:absolute;
+  width:170px;
+    top:200px;
+    left:690px;
+}
+#city{
+    position:absolute;
+  
+    top:230px;
+    left:850px;
+}
+#cityD{
+    position:absolute;
+  width:170px;
+    top:200px;
+    left:920px;
+}
+#thisfor{
+    position:absolute;
+    top:300px;
+    left:10px;
+}
+#for{
+    position:absolute;
+    width:450px;
+      top:270px;
+      left:100px;
+
+}
+#comment{
+    position:absolute;
+    width:240px;
+    height:50px;
+      top:300px;
+      left:570px;
+      background-color:whitesmoke;
+}
+#edit{
+    position:absolute;
+    width:240px;
+    height:50px;
+      top:300px;
+      left:570px;
+      background-color:red; 
+}
+#delete{
+    position:absolute;
+    width:240px;
+    height:50px;
+      top:300px;
+      left:820px;
+      background-color:red; 
+}
+
+#commentSubmit{
+    position:absolute;
+    width:100px;
+    height:40px;
+      top:310px;
+      left:825px;
+      border: solid;
+    background-color: inherit;
+    font-size: 20px;
+    
+    cursor: pointer;
+    color:rgb(62, 136, 126);
+}
+#request{
+    position:absolute;
+    width:100px;
+    height:40px;
+      top:270px;
+      left:890px;
+      border: solid;
+    background-color: inherit;
+    font-size: 20px;
+    
+    cursor: pointer;
+    color:rgb(62, 136, 126);
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: auto auto auto;
+    
+    background-color: white;
+   /* padding: 50px;*/
+    
+}
+.message-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: auto auto auto;
+    
+    background-color: white;
+   /* padding: 50px;*/
+    
+}
+.grid-item {
+      
+    background-color: lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    padding-bottom:0px;
+    width: 1000px;
+    height: 365px;
+    font-size: 30px;
+    position:relative;
+
+    left:15%;
+  
+   
+  }
+.grid-item2{
+      
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    padding-bottom:0px;
+    width: 1000px;
+    height: 315px;
+    font-size: 30px;
+    position:relative;
+    top:400px;
+    left:15%;
+  
+   
+  }
+  .message-item2{
+      
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    padding-bottom:0px;
+    width: 1000px;
+    height: 195px;
+    font-size: 30px;
+    position:relative;
+    top:400px;
+    left:15%;
+  
+   
+  }
+  .message-item{
+      
+    background-color: lightgrey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    padding-bottom:0px;
+    width: 1000px;
+    height: 195px;
+    font-size: 30px;
+    position:relative;
+    top:400px;
+    left:15%;
+  
+   
+  }
+  #footerBlack{
+      background-color: rgb(26, 25, 25);
+      position: relative;
+     
+      
+      height:130px;
+      width:100%;
+      margin-top: 350px;
+      vertical-align: bottom;
+
+  }
+#contact{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    height:5px;
+    left:5%;
+}
+#us{
+    color : rgb(149, 173, 166);
+    font-size: 40px;
+    position: relative;
+    height:5px;
+    left:5.5%;
+}
+#contactList{
+    color:white;
+    font-size: 20px;
+    position: relative;
+    height:5px;
+    left:2%;
+}
+#about{
+    color:white;
+    font-size: 40px;
+    position: relative;
+    height:5px;
+    top:-90px;
+    left:45%;
+}
+#us2{
+    color: rgb(149, 173, 166);
+    font-size: 40px;
+    position: relative;
+    height:5px;
+    top:-90px;
+    left:45.5%;
+}
+#footerLogo{
+    font-size: 60px;
+    position: absolute;
+    top:50%;
+    left:1000px;
+    color:  rgb(149, 173, 166);
+}
+#result{
+    position: absolute;
+    top:25px;
+    width: 100%;
+}
+
+
+
+.slideshow-container {
+    max-width: 500px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+   
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 150px;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: red;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
+  
+  /* Caption text */
+  
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+
+
